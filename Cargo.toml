@@ -13,6 +13,7 @@ gloo-timers = { version = "0.3", features = ["futures"] }
 web-sys = { version = "^0.3.77", features = ["Window", "Performance"] }
 js-sys = "^0.3.77"
 
-ixa = { git = "https://github.com/CDCgov/ixa.git", branch = "RobertJacobsonCDC_369_wasm_build" }
+ixa = { git = "https://github.com/CDCgov/ixa.git", branch = "RobertJacobsonCDC_369_wasm_build", features = ["logging"] }
+#ixa = { path = "../ixa", features = ["logging"] }
 rand_distr = "^0.4.3"
 serde = { version = "^1.0.217", features = ["derive"] }
